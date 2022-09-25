@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".presentation.ui.HomeFragment">
+
+
+        <View
+            android:id="@+id/group_2"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:background="#00000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/homeImageNetflix"
+            android:layout_width="53dp"
+            android:layout_height="57dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/image_netflix"
+            android:clipToOutline="true"
+            app:layout_constraintBottom_toBottomOf="@+id/group_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/group_2" />
+
+        <TextView
+            android:id="@+id/txtTVShows"
+            android:layout_width="90dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/tv_shows"
+            android:textAppearance="@style/home_text_top"
+            android:translationY="-4.96sp"
+            app:layout_constraintBottom_toBottomOf="@+id/homeImageNetflix"
+            app:layout_constraintStart_toEndOf="@+id/homeImageNetflix"
+            app:layout_constraintTop_toTopOf="@+id/homeImageNetflix" />
+
+        <TextView
+            android:id="@+id/txtMovies"
+            android:layout_width="90dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/movies"
+            android:textAppearance="@style/home_text_top"
+            android:translationY="-4.96sp"
+            app:layout_constraintBottom_toBottomOf="@+id/txtTVShows"
+            app:layout_constraintStart_toEndOf="@+id/txtTVShows"
+            app:layout_constraintTop_toTopOf="@+id/txtTVShows"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/txtMyList"
+            android:layout_width="90dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/my_list"
+            android:textAppearance="@style/home_text_top"
+            android:translationY="-4.96sp"
+            app:layout_constraintBottom_toBottomOf="@+id/txtMovies"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtMovies"
+            app:layout_constraintTop_toTopOf="@+id/txtMovies" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

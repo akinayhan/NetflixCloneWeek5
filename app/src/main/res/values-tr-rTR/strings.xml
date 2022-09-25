@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Netflix Clone</string>
+
+    <string name="started_list_item_title">Kids</string>
+    <string name="citation">Citation</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="emenalo">Yetişkin</string>
+    <string name="onyeka">Onyeka</string>
+    <string name="thelma">Thelma</string>
+    <string name="kids">Çocuk</string>
+    <string name="add_profile">Kullanıcı Ekle</string>
+
+
+    <string name="popular_on_">Popular on Netflix</string>
+
+    <string name="my_list">My List</string>
+    <string name="movies">Movies</string>
+    <string name="tv_shows">TV Shows</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="downloads">Downloads</string>
+    <string name="more">More</string>
+
+
+    <string name="popular_on_netflix">Popular on Netflix</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quam dui, vivamus bibendum ut. A morbi mi tortor ut felis non accumsan quis. Massa, id ut ipsum aliquam enim non posuere pulvinar diam.</string>
+    <string name="notifications">Notifications</string>
+    <string name="new_arrival">New Arrival</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="share">Share</string>
+    <string name="top_10_movies">Top 10 Movies</string>
+
+    <string name="manage_profiles">Manage Profiles</string>
+    <string name="tell_friends_about_netflix">Tell friends about Netflix.</string>
+    <string name="terms_conditions"> <u>Terms &amp; Conditions</u></string>
+    <string name="copy_link">Copy Link</string>
+    <string name="app_settings">App Settings</string>
+    <string name="account">Account</string>
+    <string name="help">Help</string>
+    <string name="sign_out">Sign Out</string>
+
+</resources>
